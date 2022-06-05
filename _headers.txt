@@ -1,5 +1,4 @@
-https://belk.io/*
+/*
   X-Frame-Options: DENY
-
-https://www.belk.io/*
-  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Permissions-Policy: document-domain=()
