@@ -1,0 +1,5 @@
+https://belk.io/*
+  X-Frame-Options: DENY
+
+https://www.belk.io/*
+  X-Frame-Options: DENY
