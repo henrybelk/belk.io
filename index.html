@@ -11,58 +11,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
-		<!-- Inline styles just for the Interests layout (keeps everything else unchanged) -->
-		<style>
-		/* Interests — equal-height, responsive two-column cards */
-		#interests .interests-grid {
-			display: flex;
-			gap: 1.5rem;
-			flex-wrap: wrap;
-			margin-top: 1rem;
-		}
-		#interests .interests-grid > .interest {
-			background: rgba(255,255,255,0.02);
-			border: solid 1px rgba(255,255,255,0.06);
-			border-radius: 4px;
-			padding: 1.25rem;
-			flex: 1 1 28rem;      /* try to keep two per row on wide screens */
-			min-width: 260px;
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-start;
-		}
-		#interests .interests-grid h3 {
-			margin: 0 0 0.75rem 0;
-			text-transform: uppercase;
-			letter-spacing: 0.2rem;
-			font-weight: 600;
-			font-size: 1rem;
-		}
-		#interests .interest-section {
-			margin-bottom: 0.5rem;
-		}
-		#interests .interest-section h4 {
-			margin: 0 0 0.25rem 0;
-			font-size: 0.85rem;
-			font-weight: 600;
-			text-transform: none;
-			letter-spacing: 0;
-		}
-		#interests .interests-grid ul {
-			margin: 0 0 0.85rem 1rem;
-			padding: 0;
-		}
-		#interests .interests-grid ul li p,
-		#interests .interests-grid ul li {
-			margin: 0 0 0.25rem 0;
-		}
-		@media screen and (max-width: 736px) {
-			#interests .interests-grid > .interest {
-				flex: 1 1 100%;
-			}
-		}
-		</style>
 	</head>
 	<body class="is-preload">
 
@@ -103,74 +51,117 @@
 						<!-- interests -->
 							<article id="interests">
 								<h2 class="major">Interests</h2>
+								<ul>
+								<li>
+								<h3>Infrastructure</h3>
 
-								<div class="interests-grid">
-									<div class="interest">
-										<h3>Infrastructure</h3>
+								<ul>
+									<li>
+									<h4>Email security</h4>
 
-										<div class="interest-section">
-											<h4>Email security</h4>
-											<ul>
-												<li><p>SPF</p></li>
-												<li><p>DKIM</p></li>
-												<li><p>DMARC</p></li>
-											</ul>
-										</div>
+									<ul>
+										<li>
+										<p>SPF</p>
+										</li>
+										<li>
+										<p>DKIM</p>
+										</li>
+										<li>
+										<p>DMARC</p>
+										</li>
+									</ul>
+									</li>
+									<li>
+									<h4>Encryption</h4>
 
-										<div class="interest-section">
-											<h4>Encryption</h4>
-											<ul>
-												<li><p>Let&#39;s Encrypt</p></li>
-												<li><p>Certify the Web</p></li>
-												<li><p>HTTP Strict Transport Security (HSTS)</p></li>
-											</ul>
-										</div>
+									<ul>
+										<li>
+										<p>Let&#39;s Encrypt</p>
+										</li>
+										<li>
+										<p>Certify the Web</p>
+										</li>
+										<li>
+										<p>HTTP Strict Transport Security (HSTS)</p>
+										</li>
+									</ul>
+									</li>
+									<li>
+									<h4>Domain protection</h4>
 
-										<div class="interest-section">
-											<h4>Domain protection</h4>
-											<ul>
-												<li><p>Cloudflare</p></li>
-												<li><p>Domain Name System Security Extensions (DNSSEC)</p></li>
-												<li><p>Certification Authority Authorization (CAA)</p></li>
-											</ul>
-										</div>
+									<ul>
+										<li>
+										<p>Cloudflare</p>
+										</li>
+										<li>
+										<p>Domain Name System Security Extensions (DNSSEC)</p>
+										</li>
+										<li>
+										<p>Certification Authority Authorization (CAA)</p>
+										</li>
+									</ul>
+									</li>
+									<li>
+									<h4>Connectivity</h4>
 
-										<div class="interest-section">
-											<h4>Connectivity</h4>
-											<ul>
-												<li><p>Switching</p></li>
-												<li><p>Enterprise wireless</p></li>
-												<li><p>Fiber</p></li>
-												<li><p>Next-generation firewall (NGFW)</p></li>
-												<li><p>VPNs</p></li>
-												<li><p>Multi-Factor Authentication</p></li>
-												<li><p>NextDNS</p></li>
-											</ul>
-										</div>
-
-										<div class="interest-section">
-											<h4>Vulnerability Management</h4>
-										</div>
-
-										<div class="interest-section">
-											<h4>Access Control</h4>
-											<ul>
-												<li><p>Genetec Synergis</p></li>
-											</ul>
-										</div>
-									</div>
-
-									<div class="interest">
-										<h3>Windows</h3>
-
-										<ul>
-											<li><p>Public Key Infrastructure (PKI)</p></li>
-											<li><p>Active Directory Domain Services</p></li>
-											<li><p>Advanced Group Policy Management</p></li>
-											<li><p>SQL</p></li>
+									<ul>
+										<li>
+										<p>Switching</p>
+										</li>
+										<li>
+										<p>Enterprise wireless</p>
+										</li>
+										<li>
+										<p>Fiber</p>
+										</li>
+										<li>
+										<p>Next-generation firewall (NGFW)</p>
+										</li>
+										<li>
+										<p>VPNs</p>
+										</li>
+										<li>
+										<p>Multi-Factor Authentication</p>
+										</li>
+										<li>
+										<p>NextDNS</p>
+										</li>
 										</ul>
-									</div>
-								</div>
+									<li>
+									<h4>Vulnerability Management</h4>
+									</li>
+									</li>
+									<li>
+									<h4>Access Control</h4>
+
+									<ul>
+										<li>
+										<p>Genetec Synergis</p>
+										</li>
+									</ul>
+									</li>
+								</ul>
+								</li>
+								<li>
+								<h3>Windows</h3>
+
+								<ul>
+									<li>
+									<p>Public Key Infrastructure (PKI)</p>
+									</li>
+									<li>
+									<p>Active Directory Domain Services</p>
+									</li>
+									<li>
+									<p>Advanced Group Policy Management</p>
+									</li>
+									<li>
+									<p>SQL</p>
+									</li>
+								</ul>
+								</li>
+							</ul>
+
 
 							</article>
 
@@ -340,4 +331,215 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									<ol>
 										<li>Dolor pulvinar etiam.</li>
 										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Henry Belk. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
